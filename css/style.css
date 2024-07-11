@@ -79,7 +79,7 @@ header#header > .icon-nav{
         background-size: cover;
         opacity: 0.6;
         width: 100%;
-        height: 88vh;
+        height: 85.5vh;
         align-content: center;
         text-align: center;
     }
@@ -92,7 +92,6 @@ header#header > .icon-nav{
 
     main#main > .hero > article#article-hero{
         height: 85%;
-        /* align-content: center; */
     }
 
     main#main > .hero > article#article-hero > h3#bengkel{
@@ -153,17 +152,77 @@ header#header > .icon-nav{
     main#main > .hero > article#article-hero > .sosmed > a > #tt{
         font-size: 35px;
     }
-
 /* hero end */
 
-    /* main#main > .service{
+/* service */
+    main#main > .service{
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    main#main > .service > header#hider-service{
+        margin-bottom: 2.5rem;
+        height: 10%;
+    }
+
+    main#main > .service > header#hider-service > h3{
+        font-size: 25px;
+    }
+
+    main#main > .service > header#hider-service > h2{
+        font-size: 55px;
+    }
+
+    main#main > .service > article#article-service{
+        width: 100%;
+        text-align: -webkit-center;
+        height: 85%;
+    }
+
+    main#main > .service > article#article-service > .box-service{
+        width: 60%;
+        padding-top: 20px;
+        height: 22vh;
+        margin-bottom: 1.2rem;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text{
+        height: 10vh;
+        margin-left: auto;
+        width: 73%;
+        text-align-last: start;
+        align-content: center;
+        padding-left: 10px;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 25px;
+        text-align: start;
+    }
+
+    main#main > .service > article#article-service > .box-service > .kotak{
+        width: 85%;
+        height: 4vh;
+        background-color: blue;
+        position: relative;
+        margin-top: 1rem;
+        margin-left: auto;
+    }
+
+    main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
+        position: absolute;
         background-image: url(../assets/hider.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        width: 100%;
-        height: 20%;
-    } */
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        bottom: -1px;
+        left: -50px;
+    }
+/* service end */
 
 /* main end */
 
@@ -249,7 +308,28 @@ header#header > .icon-nav{
         padding: 10px;
         margin-left: 10px;
     }
+
+    main#main > .service > article#article-service > .box-service{
+        width: 95%;
+        height: 20vh;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text{
+        height: 7vh;
+        padding-top: 20px;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 17px;
+        text-align: start;
+    }
+
+    main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
+        width: 85px;
+        height: 85px;
+    }
 }
+
 
 @media only screen and (max-width: 450px){
     main#main > .hero > article#article-hero > h1#b3{
