@@ -172,6 +172,7 @@ header#header > .icon-nav{
 
     main#main > .service > header#hider-service > h2{
         font-size: 55px;
+        color: #EF0000;
     }
 
     main#main > .service > article#article-service{
@@ -204,7 +205,7 @@ header#header > .icon-nav{
     main#main > .service > article#article-service > .box-service > .kotak{
         width: 85%;
         height: 4vh;
-        background-color: blue;
+        background-color: #EF0000;
         position: relative;
         margin-top: 1rem;
         margin-left: auto;
@@ -224,14 +225,146 @@ header#header > .icon-nav{
     }
 /* service end */
 
+/* check up */
+main#main > .check-up{
+    width: 100%;
+    height: 100vh;
+
+}
+
+main#main > .check-up > header#hider-check-up{
+    height: 30%;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+main#main > .check-up > header#hider-check-up > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+main#main > .check-up > header#hider-check-up > h3{
+    font-size: 60px;
+    color: #EF0000;
+}
+
+main#main > .check-up > header#hider-check-up > .free-bulat{
+    width: 90px;
+    height: 90px;
+    background-color: rebeccapurple;
+    position: absolute;
+    align-content: center;
+    border-radius: 50%;
+    left: 67em;
+    bottom: -3rem;
+}
+
+main#main > .check-up > header#hider-check-up > .free-bulat > p{
+    color: white;
+}
+
+main#main > .check-up > article#article-check-up{
+    height: 68%;
+    padding: 20px;
+}
+
+main#main > .check-up > article#article-check-up > .box-hider{
+    height: 12%;
+    margin-top: 2rem;
+    text-align: -webkit-center;
+}
+
+main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+    height: 100%;
+    width: 40%;
+    background-color: aqua;
+    align-content: center;
+    border-radius: 12px;
+}
+
+main#main > .check-up > article#article-check-up > .box-content{
+    height: 80%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main#main > .check-up > article#article-check-up > .box-content > .box-item{
+    width: 30%;
+    height: 70%;
+    background-color: aliceblue;
+}
+
+main#main > .check-up > article#article-check-up > .box-content > .box-item > i{
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px dotted black;
+    align-content: center;
+    text-align-last: center;
+    display: inline-block;
+}
+
+main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+    height: 75%;
+    padding: 12px;
+    align-content: center;
+    text-align-last: center;
+}
+
 /* main end */
 
 /* media query */
+@media only screen and (max-width: 1030px){
+    main#main > .service > header#hider-service{
+        height: 17%;
+        margin-bottom: 2rem;
+    }
+
+    main#main > .service > article#article-service{
+        height: 78%;
+    }
+
+    main#main > .service > article#article-service > .box-service{
+        width: 95%;
+        height: 20vh;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text{
+        height: 7vh;
+        padding-top: 20px;
+        width: 80%;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 17px;
+        text-align: start;
+    }
+
+    main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
+        width: 85px;
+        height: 85px;
+    }
+}
+
 @media only screen and (max-width: 810px){
     main#main > .hero > article#article-hero > h1#b3{
         font-size: 75px;
     }
 }
+
+@media only screen and (max-width: 880px){
+    main#main > .service > article#article-service > .box-service > .text{
+    width: 77%;
+    }
+}
+
 
 @media only screen and (max-width: 650px){
     header#header{
@@ -287,6 +420,17 @@ header#header > .icon-nav{
     }
 }
 
+@media only screen and (max-width: 590px){
+    main#main > .service > article#article-service > .box-service > .text{
+        width: 72%;
+        padding-top: 5px;    
+    }
+    
+    main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 535px){
     main#main > .hero > article#article-hero > h1#b3{
         font-size: 50px;
@@ -309,25 +453,7 @@ header#header > .icon-nav{
         margin-left: 10px;
     }
 
-    main#main > .service > article#article-service > .box-service{
-        width: 95%;
-        height: 20vh;
-    }
 
-    main#main > .service > article#article-service > .box-service > .text{
-        height: 7vh;
-        padding-top: 20px;
-    }
-
-    main#main > .service > article#article-service > .box-service > .text > p{
-        font-size: 17px;
-        text-align: start;
-    }
-
-    main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
-        width: 85px;
-        height: 85px;
-    }
 }
 
 
