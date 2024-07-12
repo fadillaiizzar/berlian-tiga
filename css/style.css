@@ -139,6 +139,10 @@ header#header > .icon-nav{
         color: black;
     }
 
+    main#main > .hero > article#article-hero > .sosmed > a:hover{
+        color: rgb(236, 229, 229);
+    }
+
     main#main > .hero > article#article-hero > .sosmed > a > #ig{
         font-size: 35px;
         margin-right: 0.5rem;
@@ -225,98 +229,202 @@ header#header > .icon-nav{
     }
 /* service end */
 
-/* check up */
-main#main > .check-up{
-    width: 100%;
-    height: 100vh;
+/* general check up */
+    main#main > .check-up{
+        width: 100%;
+        height: 100vh;
 
-}
+    }
 
-main#main > .check-up > header#hider-check-up{
-    height: 30%;
-    background-image: url(../assets/hider.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    align-content: center;
-    text-align: center;
-    position: relative;
-}
+    main#main > .check-up > header#hider-check-up{
+        height: 30%;
+        background-image: url(../assets/hider.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-content: center;
+        text-align: -webkit-center;
+        position: relative;
+    }
 
-main#main > .check-up > header#hider-check-up > p{
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: white;
-}
+    main#main > .check-up > header#hider-check-up > p{
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: white;
+    }
 
-main#main > .check-up > header#hider-check-up > h3{
-    font-size: 60px;
-    color: #EF0000;
-}
+    main#main > .check-up > header#hider-check-up > h3{
+        font-size: 60px;
+        color: #EF0000;
+    }
 
-main#main > .check-up > header#hider-check-up > .free-bulat{
-    width: 90px;
-    height: 90px;
-    background-color: rebeccapurple;
-    position: absolute;
-    align-content: center;
-    border-radius: 50%;
-    left: 67em;
-    bottom: -3rem;
-}
+    main#main > .check-up > header#hider-check-up > p#p-definisi{
+        font-size: 17px;
+        width: 70%;
+        padding: 4px;
+    }
 
-main#main > .check-up > header#hider-check-up > .free-bulat > p{
-    color: white;
-}
+    main#main > .check-up > header#hider-check-up > .free-bulat{
+        width: 90px;
+        height: 90px;
+        background-color: rebeccapurple;
+        position: absolute;
+        align-content: center;
+        border-radius: 50%;
+        left: 67em;
+        bottom: -3rem;
+    }
 
-main#main > .check-up > article#article-check-up{
-    height: 68%;
-    padding: 20px;
-}
+    main#main > .check-up > header#hider-check-up > .free-bulat > p{
+        color: white;
+    }
 
-main#main > .check-up > article#article-check-up > .box-hider{
-    height: 12%;
-    margin-top: 2rem;
-    text-align: -webkit-center;
-}
+    main#main > .check-up > article#article-check-up{
+        height: 68%;
+        padding: 20px;
+    }
 
-main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
-    height: 100%;
-    width: 40%;
-    background-color: aqua;
-    align-content: center;
-    border-radius: 12px;
-}
+    main#main > .check-up > article#article-check-up > .box-hider{
+        height: 12%;
+        margin-top: 2rem;
+        text-align: -webkit-center;
+    }
 
-main#main > .check-up > article#article-check-up > .box-content{
-    height: 80%;
-    align-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+        height: 100%;
+        width: 40%;
+        background-color: black;
+        align-content: center;
+        border-radius: 12px;
+    }
 
-main#main > .check-up > article#article-check-up > .box-content > .box-item{
-    width: 30%;
-    height: 70%;
-    background-color: aliceblue;
-}
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider > p{
+        color: white;
+        font-size: 16px;
+    }
 
-main#main > .check-up > article#article-check-up > .box-content > .box-item > i{
-    height: 25%;
-    width: 100%;
-    border-bottom: 1px dotted black;
-    align-content: center;
-    text-align-last: center;
-    display: inline-block;
-}
+    main#main > .check-up > article#article-check-up > .box-content{
+        height: 80%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
-    height: 75%;
-    padding: 12px;
-    align-content: center;
-    text-align-last: center;
-}
+    main#main > .check-up > article#article-check-up > .box-content > .box-item{
+        width: 30%;
+        height: 70%;
+        background-color: aliceblue;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item > i{
+        height: 25%;
+        width: 100%;
+        border-bottom: 1px dotted black;
+        align-content: center;
+        text-align-last: center;
+        display: inline-block;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+        height: 75%;
+        padding: 12px;
+        align-content: center;
+        text-align-last: center;
+        text-align: -webkit-center;
+    }
+/* general check up end */
+
+/* gallery */
+    main#main > .gallery{
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    main#main > .gallery > header#hider-gallery{
+        margin-bottom: 1rem;
+        height: 17%;
+    }
+
+    main#main > .gallery > header#hider-gallery > h3{
+        font-size: 25px;
+    }
+
+    main#main > .gallery > header#hider-gallery > h2{
+        font-size: 55px;
+        color: #EF0000;
+    }
+
+    main#main > .gallery > article#article-gallery{
+        width: 100%;
+        text-align: -webkit-center;
+        height: 83%;
+        align-content: center;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery{
+        width: 80%;
+        height: 90%;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-1{
+        display: flex;
+        width: 100%;
+        height: 48%;
+        margin-bottom: 1.1rem;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-1{
+        width: 60%;
+        height: 100%;
+        margin-right: 0.5rem;
+        background-image: url(../assets/hider.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid white;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-2{
+        width: 40%;
+        height: 100%;
+        background-image: url(../assets/hider.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        border: 2px solid white;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-2{
+        display: flex;
+        width: 100%;
+        height: 48%;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-3{
+        width: 40%;
+        height: 100%;
+        background-image: url(../assets/hider.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid white;
+        margin-right: 0.5rem;
+    }
+
+    main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-4{
+        width: 60%;
+        height: 100%;
+        background-image: url(../assets/hider.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid white;
+    }
+
+
+/* gallery end */
 
 /* main end */
 
@@ -351,11 +459,14 @@ main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
         width: 85px;
         height: 85px;
     }
-}
 
-@media only screen and (max-width: 810px){
-    main#main > .hero > article#article-hero > h1#b3{
-        font-size: 75px;
+    main#main > .gallery > header#hider-gallery{
+        height: 17%;
+        margin-bottom: 2rem;
+    }
+
+    main#main > .gallery > article#article-gallery{
+        height: 78%;
     }
 }
 
@@ -365,6 +476,69 @@ main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
     }
 }
 
+@media only screen and (max-width: 810px){
+    main#main > .hero > article#article-hero > h1#b3{
+        font-size: 75px;
+    }
+
+    main#main > .check-up > header#hider-check-up > p{
+        font-size: 18px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > h3{
+        font-size: 55px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > p#p-definisi{
+        font-size: 16px;
+    }
+    
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+        width: 60%; 
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+        font-size: 15px;
+        padding: 14px;
+    }
+}
+
+@media only screen and (max-width: 710px){
+    main#main > .check-up{
+        height: 140vh;
+    }
+
+    main#main > .check-up > header#hider-check-up > p{
+        font-size: 16px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > h3{
+        font-size: 45px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > p#p-definisi{
+        font-size: 13px;
+    }
+    
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+        width: 70%;
+        height: 50%;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content{
+        flex-direction: column;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item{
+        margin-bottom: 1.5rem;
+        width: 80%;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+        font-size: 15px;
+        padding: 14px;
+    }
+}
 
 @media only screen and (max-width: 650px){
     header#header{
@@ -431,6 +605,32 @@ main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
     }
 }
 
+@media only screen and (max-width: 570px){
+    main#main > .check-up > header#hider-check-up > p{
+        font-size: 13px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > h3{
+        font-size: 35px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > p#p-definisi{
+        font-size: 11px;
+    }
+    
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+        height: 60%;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider > p{
+        font-size: 14px;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 535px){
     main#main > .hero > article#article-hero > h1#b3{
         font-size: 50px;
@@ -452,10 +652,23 @@ main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
         padding: 10px;
         margin-left: 10px;
     }
-
-
 }
 
+@media only screen and (max-width: 470px){
+    main#main > .check-up > header#hider-check-up > p{
+        font-size: 11px;
+    }
+    
+    main#main > .check-up > header#hider-check-up > h3{
+        font-size: 32px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+        width: 90%;
+    }
+}
 
 @media only screen and (max-width: 450px){
     main#main > .hero > article#article-hero > h1#b3{
