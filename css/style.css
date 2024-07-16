@@ -422,11 +422,108 @@ header#header > .icon-nav{
         background-size: cover;
         border: 2px solid white;
     }
-
-
 /* gallery end */
 
+/* location */
+main#main > .location{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+main#main > .location > header#hider-location{
+    margin-bottom: 1rem;
+    height: 17%;
+}
+
+main#main > .location > header#hider-location > h3{
+    font-size: 25px;
+}
+
+main#main > .location > header#hider-location > h2{
+    font-size: 55px;
+    color: #EF0000;
+}
+
+main#main > .location > article#article-location{
+    width: 100%;
+    text-align: -webkit-center;
+    height: 80%;
+    align-content: center;
+}
+
+main#main > .location > article#article-location > .container-location{
+    width: 100%;
+    height: 100%;
+}
+
+main#main > .location > article#article-location > .container-location > .box-1-loc{
+    width: 80%;
+    height: 45%;
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+}
+
+main#main > .location > article#article-location > .container-location > .box-1-loc > .banner-logo{
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 40%;
+}
+
+main#main > .location > article#article-location > .container-location > .box-2-loc{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    padding-top: 6px;
+}
+
+main#main > .location > article#article-location > .container-location > .box-2-loc > .maps-box-2-loc{
+    width: 60%;
+}
+
+main#main > .location > article#article-location > .container-location > .box-2-loc > .maps-box-2-loc > iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc{
+    width: 40%;
+    align-content: center;
+    background-color: rgb(255, 255, 255); 
+}
+
+main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc > h3{
+    font-size: 40px;
+}
+/* location end */
 /* main end */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 8vh;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+footer > h5{
+    font-size: 20px;
+}
+
+footer > h5 > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer > h5 > a:hover{
+    color: rgb(163, 66, 66);
+}
+/* footer end */
 
 /* media query */
 @media only screen and (max-width: 1030px){
@@ -475,6 +572,28 @@ header#header > .icon-nav{
     width: 77%;
     }
 }
+
+@media only screen and (max-width: 830px){
+    main#main > .location > article#article-location > .container-location > .box-2-loc{
+        flex-direction: column;
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-2-loc > .maps-box-2-loc{
+        width: 100%;
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc{
+        align-self: center;
+        padding: 12px;
+        margin-top: 7px;
+        background-color: #898D8D;
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc > h3{
+        font-size: 30px;
+    }
+}
+
 
 @media only screen and (max-width: 810px){
     main#main > .hero > article#article-hero > h1#b3{
@@ -628,6 +747,18 @@ header#header > .icon-nav{
 
     main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
         font-size: 13px;
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-1-loc > .banner-logo{
+        width: 80%;
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc{
+        width: 70%
+    }
+
+    main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc > h3{
+        font-size: 25px;
     }
 }
 
