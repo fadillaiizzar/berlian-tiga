@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>berlian tiga</title>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <!-- header -->
 <header id="header">
     <!-- gambar logo -->
-    <div class="box-logo"></div>
+    <div class="box-logo animate__animated animate__backInDown"></div>
     <!-- gambar logo end -->
 
     <!-- text navbar -->
-    <div class="box-navbar">
+    <div class="box-navbar animate__animated animate__backInDown">
         <h2 id="navbar-berlian3">BERLIAN TIGA</h2>
         <hr id="pemisah-navbar">
         <div class="navbar">
@@ -53,8 +60,8 @@
 
         <article id="article-hero">
             <h3 id="bengkel">Bengkel Mobil</h3>
-            <h1 id="b3">BERLIAN TIGA</h1>
-            <p id="p-hero">Automotive Repair Shop</p>
+            <h1 class="animate__animated animate__rubberBand" id="b3">BERLIAN TIGA</h1>
+            <p id="p-hero">Your Car Trouble Solution</p>
             <div class="sosmed">
                 <a href="https://www.instagram.com/berlian_tiga_/"><div class="ph ph-instagram-logo" id="ig" ></div></a>
                 <a href="https://wa.me/6285713685277"><div class="ph ph-whatsapp-logo" id="wa"></div></a>
@@ -69,7 +76,7 @@
     <section class="service" id="service">
         <header id="hider-service">
             <h3>our</h3>
-            <h2>service</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000">service</h2>
         </header>
 
         <article id="article-service">
@@ -85,7 +92,7 @@
 
             <div class="box-service">
                 <div class="text" id="text2">
-                    <p>free general check up</p>
+                    <a href="#check-up">free general check up</a>
                 </div>
 
                 <div class="kotak">
@@ -183,7 +190,7 @@
                 
                 <div class="box-2-loc">
                     <div class="maps-box-2-loc">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.120293674686!2d110.36479467404943!3d-7.77706757715501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58373fffffff%3A0xa4ec1ca156555926!2sSMK%20Negeri%202%20Yogyakarta!5e0!3m2!1sid!2sid!4v1721138573951!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.028258747862!2d110.3434382!3d-7.892112300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a55d058b34b07%3A0xfda0cef2a748115f!2sBengkel%20BERLIAN%20TIGA%20(Yon%20Garage)%20Bengkel%20Online!5e0!3m2!1sid!2sid!4v1722005810197!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     
                     <div class="text-box-2-loc">
@@ -199,10 +206,15 @@
 
 <!-- footer -->
  <footer>
-    <h5><a href="#header">@dillooo</a></h5>
+    <h5><a href="#header">&copy; BERLIAN TIGA</a></h5>
  </footer>
 <!-- footer end -->
 
 <script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
 </body>
 </html>

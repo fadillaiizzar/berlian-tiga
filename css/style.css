@@ -33,6 +33,7 @@ header#header > .box-navbar{
 
 header#header > .box-navbar > h2#navbar-berlian3{
     color: white;
+    font-family: "Mukta", sans-serif;
 }
 
 header#header > .box-navbar > hr#pemisah-navbar{
@@ -51,6 +52,7 @@ header#header > .box-navbar > .navbar > ul li a{
     padding: 10px;
     text-decoration: none;
     color: #898D8D;
+    font-family: "Mukta", sans-serif;
 }
 
 header#header > .box-navbar > .navbar > ul li a:hover{
@@ -73,7 +75,7 @@ header#header > .icon-nav{
     }
 /* hero */
     main#main > .hero{
-        background-image: url(../assets/hider.png);
+        background-image: url(../assets/tes.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -98,17 +100,21 @@ header#header > .icon-nav{
         font-size: 22px;
         padding-top: 2rem;
         color: white;
+        font-family: "Mukta";
     }
 
     main#main > .hero > article#article-hero > h1#b3{
-        font-size: 90px;
+        font-size: 92px;
         color: #EF0000;
         padding-top: 2rem;
         padding-bottom: 0.5rem;
+        font-family: "Bebas Neue", sans-serif;
+        text-shadow: 2px 2px #ffffff;
     }
 
     main#main > .hero > article#article-hero > p#p-hero{
         font-size: 18px;
+        font-family: "Mukta", sans-serif;
         color: white;
     }
 
@@ -121,6 +127,7 @@ header#header > .icon-nav{
     main#main > .hero > article#article-hero > button#b-loc > a{
         text-decoration: none;
         color: black;
+        font-family: "Mukta", sans-serif;
     }
 
     main#main > .hero > article#article-hero > button#b-loc > a:hover{
@@ -177,6 +184,8 @@ header#header > .icon-nav{
     main#main > .service > header#hider-service > h2{
         font-size: 55px;
         color: #EF0000;
+        font-family: "Lilita One";
+        text-shadow: 2px 2px #ffffff;
     }
 
     main#main > .service > article#article-service{
@@ -204,6 +213,19 @@ header#header > .icon-nav{
     main#main > .service > article#article-service > .box-service > .text > p{
         font-size: 25px;
         text-align: start;
+        font-family: "Mukta", sans-serif;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > a{
+        font-size: 25px;
+        text-align: start;
+        font-family: "Mukta", sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > a:hover{
+        color: rgb(163, 66, 66);
     }
 
     main#main > .service > article#article-service > .box-service > .kotak{
@@ -232,8 +254,7 @@ header#header > .icon-nav{
 /* general check up */
     main#main > .check-up{
         width: 100%;
-        height: 100vh;
-
+        height: 110vh;
     }
 
     main#main > .check-up > header#hider-check-up{
@@ -251,17 +272,21 @@ header#header > .icon-nav{
         font-size: 20px;
         margin-bottom: 15px;
         color: white;
+        font-family: "Mukta", sans-serif;
     }
 
     main#main > .check-up > header#hider-check-up > h3{
         font-size: 60px;
         color: #EF0000;
+        font-family: "Lilita One";
+        text-shadow: 2px 2px #ffffff;
     }
 
     main#main > .check-up > header#hider-check-up > p#p-definisi{
         font-size: 17px;
         width: 70%;
         padding: 4px;
+        font-family: "Mukta", sans-serif;
     }
 
     main#main > .check-up > header#hider-check-up > .free-bulat{
@@ -301,6 +326,7 @@ header#header > .icon-nav{
     main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider > p{
         color: white;
         font-size: 16px;
+        font-family: "Mukta", sans-serif;
     }
 
     main#main > .check-up > article#article-check-up > .box-content{
@@ -332,6 +358,7 @@ header#header > .icon-nav{
         align-content: center;
         text-align-last: center;
         text-align: -webkit-center;
+        font-family: "Mukta", sans-serif;
     }
 /* general check up end */
 
@@ -354,6 +381,8 @@ header#header > .icon-nav{
     main#main > .gallery > header#hider-gallery > h2{
         font-size: 55px;
         color: #EF0000;
+        font-family: "Lilita One";
+        text-shadow: 2px 2px #ffffff;
     }
 
     main#main > .gallery > article#article-gallery{
@@ -443,6 +472,8 @@ main#main > .location > header#hider-location > h3{
 main#main > .location > header#hider-location > h2{
     font-size: 55px;
     color: #EF0000;
+    font-family: "Lilita One";
+    text-shadow: 2px 2px #ffffff;
 }
 
 main#main > .location > article#article-location{
@@ -499,6 +530,7 @@ main#main > .location > article#article-location > .container-location > .box-2-
 main#main > .location > article#article-location > .container-location > .box-2-loc > .text-box-2-loc > h3{
     font-size: 40px;
     color: white;
+    font-family: "Mukta", sans-serif;
 }
 /* location end */
 /* main end */
@@ -519,6 +551,7 @@ footer > h5{
 footer > h5 > a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-family: "Mukta", sans-serif;
 }
 
 footer > h5 > a:hover{
@@ -549,6 +582,11 @@ footer > h5 > a:hover{
     }
 
     main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 17px;
+        text-align: start;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > a{
         font-size: 17px;
         text-align: start;
     }
@@ -721,6 +759,10 @@ footer > h5 > a:hover{
     }
     
     main#main > .service > article#article-service > .box-service > .text > p{
+        font-size: 16px;
+    }
+
+    main#main > .service > article#article-service > .box-service > .text > a{
         font-size: 16px;
     }
 }
