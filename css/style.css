@@ -69,388 +69,388 @@ header#header > .icon-nav{
 /* header end */
 
 /* main */
-    main#main{
-        width: 100%;
-        background-color: #898D8D;
-    }
+main#main{
+    width: 100%;
+    background-color: #898D8D;
+}
 /* hero */
-    main#main > .hero{
-        background-image: url(../assets/tes.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        opacity: 0.9;
-        width: 100%;
-        height: 85.5vh;
-        align-content: center;
-        text-align: center;
-    }
+main#main > .hero{
+    background-image: url(../assets/tes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 85.5vh;
+    align-content: center;
+    text-align: center;
+}
 
-    main#main > .hero > header#hider-hero{
-        height: 15%;
-        align-content: center;
-        color: white;
-    }
+main#main > .hero > header#hider-hero{
+    height: 15%;
+    align-content: center;
+    color: white;
+}
 
-    main#main > .hero > article#article-hero{
-        height: 85%;
-    }
+main#main > .hero > article#article-hero{
+    height: 85%;
+}
 
-    main#main > .hero > article#article-hero > h3#bengkel{
-        font-size: 22px;
-        padding-top: 2rem;
-        color: white;
-        font-family: "Mukta";
-    }
+main#main > .hero > article#article-hero > h3#bengkel{
+    font-size: 22px;
+    padding-top: 2rem;
+    color: white;
+    font-family: "Mukta";
+}
 
-    main#main > .hero > article#article-hero > h1#b3{
-        font-size: 92px;
-        color: #EF0000;
-        padding-top: 2rem;
-        padding-bottom: 0.5rem;
-        font-family: "Bebas Neue", sans-serif;
-        text-shadow: 2px 2px #ffffff;
-    }
+main#main > .hero > article#article-hero > h1#b3{
+    font-size: 92px;
+    color: #EF0000;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 2px 2px #ffffff;
+}
 
-    main#main > .hero > article#article-hero > p#p-hero{
-        font-size: 18px;
-        font-family: "Mukta", sans-serif;
-        color: white;
-    }
+main#main > .hero > article#article-hero > p#p-hero{
+    font-size: 18px;
+    font-family: "Mukta", sans-serif;
+    color: white;
+}
 
-    main#main > .hero > article#article-hero > button#b-loc{
-        margin-top: 5rem;
-        padding: 7px 15px 7px 15px;
-        border-radius: 10px;
-    }
+main#main > .hero > article#article-hero > button#b-loc{
+    margin-top: 5rem;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+}
 
-    main#main > .hero > article#article-hero > button#b-loc > a{
-        text-decoration: none;
-        color: black;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .hero > article#article-hero > button#b-loc > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Mukta", sans-serif;
+}
 
-    main#main > .hero > article#article-hero > button#b-loc > a:hover{
-        color: #EF0000;
-    }
+main#main > .hero > article#article-hero > button#b-loc > a:hover{
+    color: #EF0000;
+}
 
-    main#main > .hero > article#article-hero > .sosmed{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-    }
+main#main > .hero > article#article-hero > .sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
 
-    main#main > .hero > article#article-hero > .sosmed > a{
-        text-decoration: none;
-        color: black;
-    }
+main#main > .hero > article#article-hero > .sosmed > a{
+    text-decoration: none;
+    color: rgb(247, 221, 221);
+}
 
-    main#main > .hero > article#article-hero > .sosmed > a:hover{
-        color: rgb(236, 229, 229);
-    }
+main#main > .hero > article#article-hero > .sosmed > a:hover{
+    color: rgb(172, 139, 139);
+}
 
-    main#main > .hero > article#article-hero > .sosmed > a > #ig{
-        font-size: 35px;
-        margin-right: 0.5rem;
-    }
+main#main > .hero > article#article-hero > .sosmed > a > #ig{
+    font-size: 35px;
+    margin-right: 0.5rem;
+}
 
-    main#main > .hero > article#article-hero > .sosmed > a > #wa{
-        font-size: 35px;
-        margin-right: 0.5rem;
-    }
+main#main > .hero > article#article-hero > .sosmed > a > #wa{
+    font-size: 35px;
+    margin-right: 0.5rem;
+}
 
-    main#main > .hero > article#article-hero > .sosmed > a > #tt{
-        font-size: 35px;
-    }
+main#main > .hero > article#article-hero > .sosmed > a > #tt{
+    font-size: 35px;
+}
 /* hero end */
 
 /* service */
-    main#main > .service{
-        width: 100%;
-        height: 100vh;
-        padding: 20px;
-    }
+main#main > .service{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
 
-    main#main > .service > header#hider-service{
-        margin-bottom: 2.5rem;
-        height: 10%;
-    }
+main#main > .service > header#hider-service{
+    margin-bottom: 2.5rem;
+    height: 10%;
+}
 
-    main#main > .service > header#hider-service > h3{
-        font-size: 25px;
-    }
+main#main > .service > header#hider-service > h3{
+    font-size: 25px;
+}
 
-    main#main > .service > header#hider-service > h2{
-        font-size: 55px;
-        color: #EF0000;
-        font-family: "Lilita One";
-        text-shadow: 2px 2px #ffffff;
-    }
+main#main > .service > header#hider-service > h2{
+    font-size: 55px;
+    color: #EF0000;
+    font-family: "Lilita One";
+    text-shadow: 2px 2px #ffffff;
+}
 
-    main#main > .service > article#article-service{
-        width: 100%;
-        text-align: -webkit-center;
-        height: 85%;
-    }
+main#main > .service > article#article-service{
+    width: 100%;
+    text-align: -webkit-center;
+    height: 85%;
+}
 
-    main#main > .service > article#article-service > .box-service{
-        width: 60%;
-        padding-top: 20px;
-        height: 22vh;
-        margin-bottom: 1.2rem;
-    }
+main#main > .service > article#article-service > .box-service{
+    width: 60%;
+    padding-top: 20px;
+    height: 22vh;
+    margin-bottom: 1.2rem;
+}
 
-    main#main > .service > article#article-service > .box-service > .text{
-        height: 10vh;
-        margin-left: auto;
-        width: 73%;
-        text-align-last: start;
-        align-content: center;
-        padding-left: 10px;
-    }
+main#main > .service > article#article-service > .box-service > .text{
+    height: 10vh;
+    margin-left: auto;
+    width: 73%;
+    text-align-last: start;
+    align-content: center;
+    padding-left: 10px;
+}
 
-    main#main > .service > article#article-service > .box-service > .text > p{
-        font-size: 25px;
-        text-align: start;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .service > article#article-service > .box-service > .text > p{
+    font-size: 25px;
+    text-align: start;
+    font-family: "Mukta", sans-serif;
+}
 
-    main#main > .service > article#article-service > .box-service > .text > a{
-        font-size: 25px;
-        text-align: start;
-        font-family: "Mukta", sans-serif;
-        text-decoration: none;
-        color: black;
-    }
+main#main > .service > article#article-service > .box-service > .text > a{
+    font-size: 25px;
+    text-align: start;
+    font-family: "Mukta", sans-serif;
+    text-decoration: none;
+    color: black;
+}
 
-    main#main > .service > article#article-service > .box-service > .text > a:hover{
-        color: rgb(163, 66, 66);
-    }
+main#main > .service > article#article-service > .box-service > .text > a:hover{
+    color: rgb(163, 66, 66);
+}
 
-    main#main > .service > article#article-service > .box-service > .kotak{
-        width: 85%;
-        height: 4vh;
-        background-color: #EF0000;
-        position: relative;
-        margin-top: 1rem;
-        margin-left: auto;
-    }
+main#main > .service > article#article-service > .box-service > .kotak{
+    width: 85%;
+    height: 4vh;
+    background-color: #EF0000;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: auto;
+}
 
-    main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
-        position: absolute;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        bottom: -1px;
-        left: -50px;
-    }
+main#main > .service > article#article-service > .box-service > .kotak > .img-bulat{
+    position: absolute;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: -1px;
+    left: -50px;
+}
 /* service end */
 
 /* general check up */
-    main#main > .check-up{
-        width: 100%;
-        height: 110vh;
-    }
+main#main > .check-up{
+    width: 100%;
+    height: 110vh;
+}
 
-    main#main > .check-up > header#hider-check-up{
-        height: 30%;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        align-content: center;
-        text-align: -webkit-center;
-        position: relative;
-    }
+main#main > .check-up > header#hider-check-up{
+    height: 30%;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    text-align: -webkit-center;
+    position: relative;
+}
 
-    main#main > .check-up > header#hider-check-up > p{
-        font-size: 20px;
-        margin-bottom: 15px;
-        color: white;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .check-up > header#hider-check-up > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: "Mukta", sans-serif;
+}
 
-    main#main > .check-up > header#hider-check-up > h3{
-        font-size: 60px;
-        color: #EF0000;
-        font-family: "Lilita One";
-        text-shadow: 2px 2px #ffffff;
-    }
+main#main > .check-up > header#hider-check-up > h3{
+    font-size: 60px;
+    color: #EF0000;
+    font-family: "Lilita One";
+    text-shadow: 2px 2px #ffffff;
+}
 
-    main#main > .check-up > header#hider-check-up > p#p-definisi{
-        font-size: 17px;
-        width: 70%;
-        padding: 4px;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .check-up > header#hider-check-up > p#p-definisi{
+    font-size: 17px;
+    width: 70%;
+    padding: 4px;
+    font-family: "Mukta", sans-serif;
+}
 
-    main#main > .check-up > header#hider-check-up > .free-bulat{
-        width: 90px;
-        height: 90px;
-        background-color: rebeccapurple;
-        position: absolute;
-        align-content: center;
-        border-radius: 50%;
-        left: 67em;
-        bottom: -3rem;
-    }
+main#main > .check-up > header#hider-check-up > .free-bulat{
+    width: 90px;
+    height: 90px;
+    background-color: rebeccapurple;
+    position: absolute;
+    align-content: center;
+    border-radius: 50%;
+    left: 67em;
+    bottom: -3rem;
+}
 
-    main#main > .check-up > header#hider-check-up > .free-bulat > p{
-        color: white;
-    }
+main#main > .check-up > header#hider-check-up > .free-bulat > p{
+    color: white;
+}
 
-    main#main > .check-up > article#article-check-up{
-        height: 68%;
-        padding: 20px;
-    }
+main#main > .check-up > article#article-check-up{
+    height: 68%;
+    padding: 20px;
+}
 
-    main#main > .check-up > article#article-check-up > .box-hider{
-        height: 12%;
-        margin-top: 2rem;
-        text-align: -webkit-center;
-    }
+main#main > .check-up > article#article-check-up > .box-hider{
+    height: 12%;
+    margin-top: 2rem;
+    text-align: -webkit-center;
+}
 
-    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
-        height: 100%;
-        width: 40%;
-        background-color: black;
-        align-content: center;
-        border-radius: 12px;
-    }
+main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider{
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    align-content: center;
+    border-radius: 12px;
+}
 
-    main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider > p{
-        color: white;
-        font-size: 16px;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .check-up > article#article-check-up > .box-hider > .box-text-hider > p{
+    color: white;
+    font-size: 16px;
+    font-family: "Mukta", sans-serif;
+}
 
-    main#main > .check-up > article#article-check-up > .box-content{
-        height: 80%;
-        align-content: center;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+main#main > .check-up > article#article-check-up > .box-content{
+    height: 80%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-    main#main > .check-up > article#article-check-up > .box-content > .box-item{
-        width: 30%;
-        height: 70%;
-        background-color: aliceblue;
-    }
+main#main > .check-up > article#article-check-up > .box-content > .box-item{
+    width: 30%;
+    height: 70%;
+    background-color: aliceblue;
+}
 
-    main#main > .check-up > article#article-check-up > .box-content > .box-item > i{
-        height: 25%;
-        width: 100%;
-        border-bottom: 1px dotted black;
-        align-content: center;
-        text-align-last: center;
-        display: inline-block;
-    }
+main#main > .check-up > article#article-check-up > .box-content > .box-item > i{
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px dotted black;
+    align-content: center;
+    text-align-last: center;
+    display: inline-block;
+}
 
-    main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
-        height: 75%;
-        padding: 12px;
-        align-content: center;
-        text-align-last: center;
-        text-align: -webkit-center;
-        font-family: "Mukta", sans-serif;
-    }
+main#main > .check-up > article#article-check-up > .box-content > .box-item > p{
+    height: 75%;
+    padding: 12px;
+    align-content: center;
+    text-align-last: center;
+    text-align: -webkit-center;
+    font-family: "Mukta", sans-serif;
+}
 /* general check up end */
 
 /* gallery */
-    main#main > .gallery{
-        width: 100%;
-        height: 100vh;
-        padding: 20px;
+main#main > .gallery{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+main#main > .gallery > header#hider-gallery{
+    margin-bottom: 1rem;
+    height: 17%;
+}
+
+main#main > .gallery > header#hider-gallery > h3{
+    font-size: 25px;
+}
+
+main#main > .gallery > header#hider-gallery > h2{
+    font-size: 55px;
+    color: #EF0000;
+    font-family: "Lilita One";
+    text-shadow: 2px 2px #ffffff;
     }
 
-    main#main > .gallery > header#hider-gallery{
-        margin-bottom: 1rem;
-        height: 17%;
-    }
+main#main > .gallery > article#article-gallery{
+    width: 100%;
+    text-align: -webkit-center;
+    height: 83%;
+    align-content: center;
+}
 
-    main#main > .gallery > header#hider-gallery > h3{
-        font-size: 25px;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery{
+    width: 80%;
+    height: 90%;
+}
 
-    main#main > .gallery > header#hider-gallery > h2{
-        font-size: 55px;
-        color: #EF0000;
-        font-family: "Lilita One";
-        text-shadow: 2px 2px #ffffff;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-1{
+    display: flex;
+    width: 100%;
+    height: 48%;
+    margin-bottom: 1.1rem;
+}
 
-    main#main > .gallery > article#article-gallery{
-        width: 100%;
-        text-align: -webkit-center;
-        height: 83%;
-        align-content: center;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-1{
+    width: 60%;
+    height: 100%;
+    margin-right: 0.5rem;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+}
 
-    main#main > .gallery > article#article-gallery > .container-gallery{
-        width: 80%;
-        height: 90%;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-2{
+    width: 40%;
+    height: 100%;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border: 2px solid white;
+}
 
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-1{
-        display: flex;
-        width: 100%;
-        height: 48%;
-        margin-bottom: 1.1rem;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-2{
+    display: flex;
+    width: 100%;
+    height: 48%;
+}
 
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-1{
-        width: 60%;
-        height: 100%;
-        margin-right: 0.5rem;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: 2px solid white;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-3{
+    width: 40%;
+    height: 100%;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    margin-right: 0.5rem;
+}
 
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-1 > .box-img-2{
-        width: 40%;
-        height: 100%;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        border: 2px solid white;
-    }
-
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-2{
-        display: flex;
-        width: 100%;
-        height: 48%;
-    }
-
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-3{
-        width: 40%;
-        height: 100%;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: 2px solid white;
-        margin-right: 0.5rem;
-    }
-
-    main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-4{
-        width: 60%;
-        height: 100%;
-        background-image: url(../assets/hider.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: 2px solid white;
-    }
+main#main > .gallery > article#article-gallery > .container-gallery > .box-2 > .box-img-4{
+    width: 60%;
+    height: 100%;
+    background-image: url(../assets/hider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+}
 /* gallery end */
 
 /* location */
@@ -546,16 +546,13 @@ footer{
 
 footer > h5{
     font-size: 20px;
-}
-
-footer > h5 > a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: "Mukta", sans-serif;
 }
 
-footer > h5 > a:hover{
-    color: rgb(163, 66, 66);
+footer > h5:hover{
+    color: #969683;
 }
 /* footer end */
 
